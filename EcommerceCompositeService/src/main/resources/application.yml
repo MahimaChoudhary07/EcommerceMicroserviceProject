@@ -1,0 +1,11 @@
+server :
+ port : 0
+
+eureka:
+   client:
+    register-with-eureka: true
+    fetch-registry: true
+    
+ecommerce-service :
+   order-service :
+     name : orderservice
