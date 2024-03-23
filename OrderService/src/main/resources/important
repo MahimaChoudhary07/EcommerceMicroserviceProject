@@ -1,0 +1,7 @@
+mvnw jasypt:encrypt-value -Djasypt.encryptor.password = orderservice -Djasypt.plugin.value=Msba$071197
+
+
+ENC(mucK51N0lws9URsogCfoofotliXLnDnSzvJ4AL8bFX9d1Vp2eED3Vv6XrJ9GaG+J)
+
+
+mvnw jasypt:decrypt-value -Djasypt.encryptor.password=jsyptkey -Djasypt.plugin.value=WXFGk2JRMdu8PGA1Z6APU59zPOyOCYjCgqWXZ65wlOw9GFz/xTitxVdgZJHNe36y

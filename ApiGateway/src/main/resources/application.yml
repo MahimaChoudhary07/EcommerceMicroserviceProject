@@ -1,0 +1,19 @@
+server : 
+ port : 8765
+ 
+eureka :
+  instance : 
+   hostname : localhost
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    
+zuul :
+ routes :
+  library-composite-service :
+   path : /library-service/**
+   service-id : library-service
+  ecommerce-composite-service :
+   path: /ecommerce-service/**
+   service-id : ecommerce-service
+  
